@@ -1,0 +1,17 @@
+{
+  "name": "koa-app",
+  "version": "1.0.0",
+  "description": "koa-app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./server/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "achenjs",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.4.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.3.0"
+  }
+}
