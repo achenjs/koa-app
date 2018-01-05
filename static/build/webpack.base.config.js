@@ -6,10 +6,9 @@ const outputPath = path.join(__dirname, './../output/dist/');
 
 module.exports = {
   // 入口文件
-  entry: [
-    require.resolve('./polyfills'),
-    './src/index'
-  ],
+  entry: {
+    app: './src/index'
+  },
   vendor: ['react', 'react-dom', 'whatwg-fetch'],
   // 出口文件
   output: {
