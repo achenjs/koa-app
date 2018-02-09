@@ -22,6 +22,7 @@ response.js 处理http响应
 ```
 
 # 项目目录
+```
 ├── init                                数据库初始化目录
 │   ├── index.js                        初始化入口文件
 │   ├── sql/                            sql脚本文件目录
@@ -41,4 +42,4 @@ response.js 处理http响应
     ├── build/                          webpack编译配置目录
     ├── output/                         编译后前端代码目录&静态资源前端访问目录
     └── src/                            前端源代码目录
-
+```
